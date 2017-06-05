@@ -9,7 +9,7 @@ Se o seu ambiente está preparado, basta fazer uma cópia do projeto que está d
 
 >Para testes sugerimos o uso do plugin POSTMAN com o GOOGLE CHROME
 
-### Isntalação, empacotamento e execução
+### Instalação, empacotamento e execução
 
 Após ter feito a cópia do projeto, basta acessar via terminal o diretório do mesmo onde encontra-se o arquivo **‘pom.xml’**. Uma vez no diretório, executar os seguintes comandos:
 
@@ -65,5 +65,3 @@ O chamada deve ser executada utilizando o método **_GET_**.
 
 Exemplo POSTMAN
 ![alt text](https://raw.githubusercontent.com/duartelfelipe/xy-inc/master/documentos/readme-imgs/listar.png)
-
-FIM.
