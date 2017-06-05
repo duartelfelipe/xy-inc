@@ -65,3 +65,5 @@ O chamada deve ser executada utilizando o método **_GET_**.
 
 Exemplo POSTMAN
 ![alt text](https://raw.githubusercontent.com/duartelfelipe/xy-inc/master/documentos/readme-imgs/listar.png)
+
+Qualquer duvida entrar em contato através do email duarte.lfelipe@gmail.com
