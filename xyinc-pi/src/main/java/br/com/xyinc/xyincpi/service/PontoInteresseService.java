@@ -3,6 +3,7 @@ package br.com.xyinc.xyincpi.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import br.com.xyinc.xyincpi.model.PontoInteresse;
@@ -28,12 +29,13 @@ public class PontoInteresseService {
      * @author Luiz Felipe
      * @throws Exception 
      */
-    public void cadastrarPontoInteresse(PontoInteresse pontoInteresse) throws Exception {
+    public ResponseEntity<Void> cadastrarPontoInteresse(PontoInteresse pontoInteresse) throws Exception {
 
         try {
 
             //utiliza método do JpaRepository salvar ponto de interesse
             repository.save(pontoInteresse);
+            return ResponseEntity.ok().build();
             
         } catch (Exception e) {
             throw new Exception("Erro ao cadastrar ponto de interesse.");
